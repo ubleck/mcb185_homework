@@ -123,4 +123,11 @@ def dnacomp(c):
     elif c == 'G': print('C')
     elif c == 'T': print('A')
     else:          print('None')
-dnacomp(c)    
+dnacomp(c)
+
+def max(a, b, c):
+    if   a > b and a > c: print(a, 'is the max')
+    elif b > a and b > c: print(b, 'is the max')
+    elif c > a and c > b: print(c, 'is the max')
+    else:                 print('ERROR')
+max(23, 37, 67)
