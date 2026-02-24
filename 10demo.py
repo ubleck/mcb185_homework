@@ -131,3 +131,47 @@ def max(a, b, c):
     elif c > a and c > b: print(c, 'is the max')
     else:                 print('ERROR')
 max(23, 37, 67)
+
+i = 0
+while i < 3:
+    i = i + 1
+    print('hey', i)
+i = 1
+while i < 10:
+    print(i)
+    i = i + 3
+print('final value of i is', i)
+
+for i in range(1, 10, 3):
+    print(i)
+for i in range(5):
+    print(i)
+
+for i in range(7):
+    if i % 2 == 0: print(i, 'is even')
+    else:          print(i, 'is odd')
+
+n = 5
+    
+def factorial(n):
+    if n == 0: return 1
+    fac = 1
+    for i in range(1, n + 1):
+        fac = fac * i
+    return fac
+print((factorial(n)))
+
+import random
+
+for i in range(5):
+    print(random.randint(1, 6))
+
+random.seed(1)
+print(random.random())
+print(random.random())
+random.seed(2)
+print(random.random())
+print(random.random())
+random.seed(1)
+print(random.random())
+print(random.random())
