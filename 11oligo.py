@@ -1,4 +1,4 @@
-import math
+import sys
 
 def tm(A, C, G, T):
     total = A + C + G + T 
